@@ -385,7 +385,7 @@ body,html{
         letter-spacing: 1.5px;
     }
     .primary-winner{
-        margin-block: 16px;  
+        font-size: 24px !important;  
     }
     .round-taker{
         width: 30px;
