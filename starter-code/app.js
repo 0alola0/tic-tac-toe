@@ -41,6 +41,7 @@ var oScore = 0
 var tieScore = 0
 p1.textContent = "X (P1)"
 p2.textContent = "O (P2)"
+applyHover()
 
 function p1X(){
     p1.textContent = "X (P1)"
@@ -117,6 +118,8 @@ function handleClick(e){
             if(checkWinner(currentClass)){
                 highlight(winningCombo)
                 endgame(currentPlayerX)
+                switchTurn()
+
             }
             else if(checkDraw()){
                 tieScore++
@@ -137,6 +140,7 @@ function handleClick(e){
             if(checkWinner(currentClass)){
                 highlight(winningCombo)
                 endgame(currentPlayerX)
+                switchTurn()
             }
             else if(checkDraw()){
                 tieScore++

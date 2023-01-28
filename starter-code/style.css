@@ -314,7 +314,7 @@ body,html{
     background-color: var(--grey);
 }
 .new-game-btn{
-    width: 460px;
+    width: 100%;
     border: none;
     border-radius: 15px;
     height: 67px;
@@ -328,6 +328,84 @@ body,html{
 .cyan-btn{
     background: #31C3BD;
     box-shadow: inset 0px -8px 0px #118C87;
+}
+
+@media screen and (max-width: 470px) {
+    .home-container{
+        width: 327px;
+    }
+    .pick-btn-container{
+        width: 279px;
+    }
+    .choose-btn{
+        width: 132px;
+    }
+    .new-game-btn{
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 1px;
+    }
+
+    .box{
+        width: 96px;
+        height: 96px; 
+    }
+    .score{
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: 1.25px;
+    }
+    .tile{
+        width: 96px;
+        height: 64px;
+    }
+    .turn{
+        width: 96px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.8px;  
+    }
+    .restart-container > img{
+        padding: 12.31px;  
+    }
+    .turn-icon{
+        width: 16px;
+        margin-right: 9px;
+    }
+
+    .announcement-container{
+        height: 228px;
+        line-height: 18px;
+        letter-spacing: 0.87px;
+    }
+    .round-taker-container{
+        font-size: 24px;
+        line-height: 30px;
+        letter-spacing: 1.5px;
+    }
+    .primary-winner{
+        margin-block: 16px;  
+    }
+    .round-taker{
+        width: 30px;
+        height:30px;
+        margin-right: 8px;
+    }
+    .next-round{
+        height: 52px;
+        width: 146px;
+        margin-left: 16px;
+    }  
+    .res-p{
+        font-size: 24px;
+        line-height: 30px;
+        letter-spacing: 1.5px;
+    }
+
+    
+    
+    
 }
 
 
